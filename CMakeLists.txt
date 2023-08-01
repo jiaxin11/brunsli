@@ -30,7 +30,7 @@ include(FetchContent)
 # Add GTest
 FetchContent_Declare(
   GTest
-  GIT_REPOSITORY https://ghproxy.com/github.com/google/googletest
+  GIT_REPOSITORY https://ghproxy.com/https://github.com/google/googletest
   GIT_TAG e2239ee6043f73722e7aa812a459f54a28552929 # v1.11.0
 )
 # For Windows: Prevent overriding the parent project's compiler/linker settings
@@ -41,7 +41,7 @@ FetchContent_MakeAvailable(GTest)
 # Add Brotli
 FetchContent_Declare(
   Brotli
-  GIT_REPOSITORY https://ghproxy.com/github.com/google/brotli
+  GIT_REPOSITORY https://ghproxy.com/https://github.com/google/brotli
   GIT_TAG e61745a6b7add50d380cfd7d3883dd6c62fc2c71 # v1.0.9
 )
 set(BROTLI_DISABLE_TESTS ON CACHE INTERNAL "")
